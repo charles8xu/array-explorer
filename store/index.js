@@ -126,7 +126,7 @@ export const store = new Vuex.Store({
         name: 'sort',
         shortDesc: 'sort the items of the array',
         desc: 'Sorts the elements of an array in place and returns the array.',
-        example: `arr.sort();<br>
+        example: `arr.sort((a,b) => a-b);<br>
         console.log(arr);`,
         output: `[1, 5, 8]`
       }
